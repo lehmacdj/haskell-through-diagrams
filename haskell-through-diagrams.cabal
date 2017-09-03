@@ -24,6 +24,7 @@ library
                      , transformers
                      , mtl
                      , lens
+                     , directory
   default-language:    Haskell2010
   default-extensions: NoMonomorphismRestriction
                     , FlexibleContexts
