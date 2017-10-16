@@ -29,6 +29,8 @@ library
                      , directory
   default-language:    Haskell2010
   default-extensions: NoMonomorphismRestriction
+                    , TypeFamilies
+                    , FlexibleContexts
 
 executable hask-diagrams
   hs-source-dirs:      app
