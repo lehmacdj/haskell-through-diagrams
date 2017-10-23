@@ -7,12 +7,10 @@ import Diagrams.Prelude
 -- is important to actually attempt to build stuff in order to become a better
 -- programmer. Ocassionally I will also explain what is going on my solutions
 -- because they use more features than you probably know sometimes (but only
--- within reason). Examples will always be a "Diagram" (or as you can see in the
--- type specification they are all `Diagram B`s. To view the diagram run
--- `draw <exercise-name>` in GHCi. If I provide multiple solutions to the same
--- exercise I append something to the end of the exercise from a `'` for a small
--- modification to `_wrong` for a variant that doesn't produce the correct
--- result.
+-- within reason). To view the diagram run `draw <exercise-name>` in GHCi. If I
+-- provide multiple solutions to the same exercise I append something to the
+-- end of the exercise from a `'` for a small modification to `_wrong` for a
+-- variant that doesn't produce the correct result.
 
 -- I define t then combine them together twice.
 -- In GHCi you could have done the same thing with:
