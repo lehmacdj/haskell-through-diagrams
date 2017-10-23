@@ -36,7 +36,7 @@ ch3ex1' = translate t === (t ||| t) # centerX where
 ch3ex1_formatted =     t
                       ===
                    (t ||| t) # centerX
-                       where t = triangle 1 # lc black # fc blue
+   where t = triangle 1 # lc black # fc blue
 
 -- Note the parenthesis are actually necessary here. If you don't include them
 -- you will end up with two triangles above one triangle.
