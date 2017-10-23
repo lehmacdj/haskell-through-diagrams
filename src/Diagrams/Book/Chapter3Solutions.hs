@@ -40,3 +40,11 @@ ch3ex1_formatted =     t
 -- you will end up with two triangles above one triangle.
 ch3ex1_wrong = t === t ||| t where
     t = triangle 1 # lc black # fc blue
+
+ch3ex2 = undefined
+
+ch3ex3 = undefined
+
+ch3ex4 = undefined
+
+ch3ex5 = undefined
