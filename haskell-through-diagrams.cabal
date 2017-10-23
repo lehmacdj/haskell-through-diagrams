@@ -16,7 +16,7 @@ library
   hs-source-dirs:      src
   exposed-modules:     Diagrams.Book
                      , Diagrams.Book.Prelude
-                     , Diagrams.Book.Chapter3
+                     , Diagrams.Book.Chapter3Solutions
   build-depends:       base >= 4.7 && < 5
                      , diagrams
                      , diagrams-lib

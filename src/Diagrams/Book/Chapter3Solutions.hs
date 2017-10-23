@@ -1,4 +1,4 @@
-module Diagrams.Book.Chapter3 where
+module Diagrams.Book.Chapter3Solutions where
 
 import Diagrams.Book.Prelude
 import Diagrams.Prelude
