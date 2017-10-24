@@ -41,10 +41,28 @@ ch3ex1_formatted =     t
 ch3ex1_wrong = t === t ||| t where
     t = triangle 1 # lc black # fc blue
 
-ch3ex2 = undefined
+-- First we create the circle, then the stem, then we align the origins to the
+-- top and bottom, before combining the two diagrams.
+ch3ex2 = a <> s where
+   a = circle 1 # fc red # alignT
+   s = rect 0.1 0.2 # fc saddlebrown # alignB
 
-ch3ex3 = undefined
+-- We create a hexagon and rotate it 30 degrees. Next we scale it along the X
+-- axis then, show its origin.
+-- This is mostly a stepping stone for creating the next exercise.
+ch3ex3 = hexagon 0.2 # rotate (30 @@ deg)
+                     # fc green
+                     # scaleX 0.5
+                     # alignB
+                     # showOrigin
 
-ch3ex4 = undefined
+-- We modify the leaf from the previous exercise by rotating it and then add
+-- it to the the apple we built in exercise 2.
+-- Notice that, the origin stays in the same place on rotating allowing us to
+-- have a nice origin for combining the leaves with the rest of the apple.
+ch3ex4 = l1 <> ch3ex2 <> l2 where
+   l = hexagon 0.2 # rotate (30 @@ deg) # scaleX 0.5 # fc green # alignB
+   l1 = l # rotateBy 0.2
+   l2 = l # rotateBy (-0.1)
 
 ch3ex5 = undefined
