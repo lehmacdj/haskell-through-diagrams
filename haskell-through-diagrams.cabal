@@ -17,6 +17,7 @@ library
   exposed-modules:     Diagrams.Book
                      , Diagrams.Book.Prelude
                      , Diagrams.Book.Chapter3Solutions
+                     , Diagrams.Book.Chapter4
   build-depends:       base >= 4.7 && < 5
                      , diagrams
                      , diagrams-lib
